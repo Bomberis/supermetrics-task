@@ -46,7 +46,9 @@ class Core
         }
 
         // TODO: request method type check
-
+        
+        // TODO: global exception handler 
+        
         $controllerInfo = $this->routes[$route];
         $method = $controllerInfo['method'];
 
